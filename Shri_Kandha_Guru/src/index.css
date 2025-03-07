@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+input:-webkit-autofill { 
+    -webkit-text-fill-color: white !important;
+    -webkit-background-clip: text;
+}
